@@ -39,6 +39,8 @@ https://facebook.github.io/react-native/docs/signed-apk-android
 
 **Ignorando Alertas Indesejáveis com YellowBox**  
 
+Altere o arquivo "index.js" que fica na raiz do projeto.
+
 ```javascript
 import { AppRegistry, YellowBox } from 'react-native'
 import App from './src/App'
