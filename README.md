@@ -45,6 +45,13 @@ https://facebook.github.io/react-native/docs/signed-apk-android
 - https://github.com/crazycodeboy/react-native-splash-screen
 - https://rnfirebase.io  
 - https://github.com/andpor/react-native-sqlite-storage  
+- https://github.com/sriraman/react-native-shared-preferences  
+- https://github.com/wwayne/react-native-user-defaults  
+- https://github.com/kevinresol/react-native-default-preference  
+- https://github.com/oblador/react-native-keychain  
+- https://github.com/pradeep1991singh/react-native-secure-key-store  
+- https://github.com/rt2zz/redux-persist
+- https://github.com/CodingZeal/redux-persist-sensitive-storage
 
 **Ignorando Alertas Indesejáveis com YellowBox**  
 
@@ -81,3 +88,5 @@ AppRegistry.registerComponent('app', () => App)
 - https://pt.stackoverflow.com/questions/297133/como-usar-firebase-notification-em-um-projeto-react-native 
 - https://medium.com/yale-sandbox/react-native-push-notifications-with-firebase-cloud-functions-74b832d45386 
 - http://www.reactnative.com 
+- http://randycoulman.com/blog/2017/07/25/secure-storage-in-react-native 
+- https://redux.js.org
