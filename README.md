@@ -2,9 +2,11 @@
 
 React native é uma plataforma javascript para Android e iOS. O código javascript não é convertido em Java ou Swift, mas sim interpretado por uma vm (máquina virtual) que por sua vez aciona a API nativa.
 
-**Antes de criar uma Aplicação**  
+**Configurando o Ambiente**  
 
 - https://facebook.github.io/react-native/docs/0.56/getting-started
+
+Depois de acessar o link acima acione a opção **Building Projects with Native Code**, selecione o sistema operacional e siga os passos para configurar o ambiente.
 
 **Criando uma Aplicação**  
 
