@@ -2,6 +2,10 @@
 
 React native é uma plataforma javascript para Android e iOS. O código javascript não é convertido em Java ou Swift, mas sim interpretado por uma vm (máquina virtual) que por sua vez aciona a API nativa.
 
+**Antes de criar uma Aplicação**  
+
+- https://facebook.github.io/react-native/docs/0.56/getting-started
+
 **Criando uma Aplicação**  
 
 ```cmd
@@ -66,6 +70,8 @@ AppRegistry.registerComponent('app', () => App)
 **Fontes**   
 
 - https://facebook.github.io/react-native  
+- https://facebook.github.io/react-native/versions  
+- https://github.com/facebook/react-native/releases  
 - https://medium.com/nutripad/react-native-webview-ou-realmente-nativo-4e30a37ae020  
 - https://www.youtube.com/watch?v=S0T3ocPUotk (Será que o React Native é mesmo nativo? - Programador Br - Ep.38)  
 - https://pt.stackoverflow.com/questions/297133/como-usar-firebase-notification-em-um-projeto-react-native 
