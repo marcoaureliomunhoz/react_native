@@ -71,4 +71,3 @@ AppRegistry.registerComponent('app', () => App)
 - https://pt.stackoverflow.com/questions/297133/como-usar-firebase-notification-em-um-projeto-react-native 
 - https://medium.com/yale-sandbox/react-native-push-notifications-with-firebase-cloud-functions-74b832d45386 
 - http://www.reactnative.com 
-- 
