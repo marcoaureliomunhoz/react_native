@@ -36,6 +36,7 @@ https://facebook.github.io/react-native/docs/signed-apk-android
 - https://github.com/react-native-community/react-native-tab-view
 - https://github.com/crazycodeboy/react-native-splash-screen
 - https://rnfirebase.io  
+- https://github.com/andpor/react-native-sqlite-storage  
 
 **Ignorando Alertas Indesejáveis com YellowBox**  
 
@@ -69,3 +70,5 @@ AppRegistry.registerComponent('app', () => App)
 - https://www.youtube.com/watch?v=S0T3ocPUotk (Será que o React Native é mesmo nativo? - Programador Br - Ep.38)  
 - https://pt.stackoverflow.com/questions/297133/como-usar-firebase-notification-em-um-projeto-react-native 
 - https://medium.com/yale-sandbox/react-native-push-notifications-with-firebase-cloud-functions-74b832d45386 
+- http://www.reactnative.com 
+- 
