@@ -8,6 +8,8 @@ React native é uma plataforma javascript para Android e iOS. O código javascri
 
 **Criando uma Aplicação**  
 
+Atualmente a versão mais estável do React Native é a "0.56", porém no windows não está funcionando muito bem ao implantar no emulador Android para realização de testes. A solução é trabalhar com a versão "0.55.4" até que a equipe do react native solucione.
+
 ```cmd
 $ react-native init --version="0.55.4" <app>
 $ cd <app>
