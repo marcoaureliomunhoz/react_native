@@ -89,4 +89,6 @@ AppRegistry.registerComponent('app', () => App)
 - https://medium.com/yale-sandbox/react-native-push-notifications-with-firebase-cloud-functions-74b832d45386 
 - http://www.reactnative.com 
 - http://randycoulman.com/blog/2017/07/25/secure-storage-in-react-native 
-- https://redux.js.org
+- https://medium.com/wolox-driving-innovation/https-medium-com-wolox-driving-innovation-easy-forms-in-react-native-with-redux-form-1cdc16a9a889
+- https://redux.js.org 
+- https://redux-form.com
