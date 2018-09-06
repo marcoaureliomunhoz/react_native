@@ -52,6 +52,8 @@ https://facebook.github.io/react-native/docs/signed-apk-android
 - https://github.com/pradeep1991singh/react-native-secure-key-store  
 - https://github.com/rt2zz/redux-persist
 - https://github.com/CodingZeal/redux-persist-sensitive-storage
+- https://github.com/antoniopresto/react-native-local-mongodb
+- https://docs.expo.io/versions/latest/sdk/sqlite
 
 **Ignorando Alertas Indesejáveis com YellowBox**  
 
@@ -94,3 +96,5 @@ AppRegistry.registerComponent('app', () => App)
 - http://docs.nativebase.io/docs/examples/ReduxFormExample.html
 - https://redux.js.org 
 - https://redux-form.com
+- http://docs.dronahq.com/en/latest/developer/api-device-sqlite.html
+- https://blog.rocketseat.com.br/autenticacao-react-native-nodejs
