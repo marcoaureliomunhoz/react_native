@@ -7,15 +7,15 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Button} from 'react-native';
+import {Platform, StyleSheet, Text, View, Button, Alert} from 'react-native';
 
 const instructions = Platform.select({
   ios: 
     'Pressione Cmd+R para recarregar.\n' + 
-    'No dispositivo real use Cmd+D ou chacoalhe para exibir o menu dev.',
+    'No dispositivo real chacoalhe ou no emulador use Cmd+D para exibir o menu dev.',
   android:
     'Pressione duas vezes R para recarregar.\n' +
-    'No dispositivo real chacoalhe ou pressione o botão menu para exibir o menu dev',
+    'No dispositivo real chacoalhe ou no emulador use Ctrl+M para exibir o menu dev',
 });
 
 type Props = {};
@@ -28,7 +28,8 @@ export default class App extends Component<Props> {
   }
 
   exibirMensagem() {
-    alert('Isso é um teste!');
+    //alert('Isso é um teste!');
+    Alert.alert('Isso é um teste!');
   }
 
   render() {
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 30,
     textAlign: 'center',
     margin: 10,
     color: '#000',
