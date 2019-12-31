@@ -16,10 +16,21 @@ Atualmente a versão mais estável do React Native é a "0.56", porém no window
 $ react-native init --version="0.55.4" <app>
 $ cd <app>
 $ npm install --save-dev eslint-config-rallycoding
+$ emulator -avd Pixel_2_API_29
+ou 
+$ emulator -avd Pixel_2_API_29 -gpu swiftshader_indirect
+$ react-native start --reset-cache
 $ react-native run-android
 ou 
 $ react-native run-android --deviceId <id>
 ```  
+
+**Listando os devices Android**
+
+```cmd
+$ adb devices
+$ emulator -list-avds
+```
 
 **Configurando ESLint**  
 
