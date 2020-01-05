@@ -32,6 +32,12 @@ $ adb devices
 $ emulator -list-avds
 ```
 
+**Problemas**
+- Erro Unable to load script from assets 'index.android.bundle'.make sure you bundle is packaged correctly:
+```cmd
+$ react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+```
+
 **Configurando ESLint**  
 
 Crie na raiz do projeto um arquivo chamado ".eslintrc" e configure seu conteúdo.
