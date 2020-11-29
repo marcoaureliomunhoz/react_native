@@ -10,19 +10,21 @@ Depois de acessar o link acima acione a opção **Building Projects with Native 
 
 **Criando uma Aplicação**  
 
-Atualmente a versão mais estável do React Native é a "0.56", porém no windows não está funcionando muito bem ao implantar no emulador Android para realização de testes. A solução é trabalhar com a versão "0.55.4" até que a equipe do react native solucione.
-
 ```cmd
-$ react-native init --version="0.55.4" <app>
+criando um app com uma versão específica do react-native
+$ npx react-native init --version="0.55.4" <app>
+criando um app com a última versão do react-native
+opcionalmente você pode definir o template
+$ npx react-native init <app> [--template react-native-template-typescript]
 $ cd <app>
 $ npm install --save-dev eslint-config-rallycoding
 $ emulator -avd Pixel_2_API_29
 ou 
 $ emulator -avd Pixel_2_API_29 -gpu swiftshader_indirect
-$ react-native start --reset-cache
-$ react-native run-android
+$ npx react-native start --reset-cache
+$ npx react-native run-android
 ou 
-$ react-native run-android --deviceId <id>
+$ npx react-native run-android --deviceId <id>
 ```  
 
 **Listando os devices Android**
