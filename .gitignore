@@ -10,9 +10,17 @@
 /build
 
 # react native outputs
-/android
+*.key
+*.keystore
 /ios
-android/
+**/android/**/*.jar
+**/android/**/*.bzl
+**/android/**/*.png
+**/android/**/*.bat
+**/android/**/BUCK
+**/android/**/gradlew
+**/android/**/*.keystore
+**/android/**/*keystore*
 ios/
 
 # misc
